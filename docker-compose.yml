@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  saham-network:
+    build: .
+    container_name: web_saham_network
+    ports:
+      - "8501:8501"
+    restart: always
